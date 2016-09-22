@@ -16,5 +16,3 @@ Has a `name`, `unit`, `price`, and a `pictureUrl`
 A fancy name for an order
 
 Has a `date`, `oodler`, `office`, `thingies [{...}, {...}, ...]`, and a  `total`
-
-

@@ -10,7 +10,7 @@ const payloadReporter = require('./payloadReporter');
 function reporters() {
   let reporters = { consoleReporter: consoleReporter };
 
-  if(MONITOR_PAYLOAD) { reporters.payloadReporter = payloadReporter; }
+  if (MONITOR_PAYLOAD) { reporters.payloadReporter = payloadReporter; }
 
   return reporters;
 }
